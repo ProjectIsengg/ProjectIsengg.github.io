@@ -1,0 +1,118 @@
+*, html{
+    margin: 0;
+    padding: 0
+    ;
+}
+
+
+
+.container {}
+
+.container-navbar{
+    background-color: pink;
+    width: 100%;
+    height: 100px;
+}
+
+.ul-navbar{
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.li-navbar{
+    width: 100px;
+    font-style: oblique;
+    font-size: 25px;
+    background-color: pink;
+    list-style-type: none;
+    padding: 20px;
+    margin: 30px;
+    color: black;
+
+}
+
+
+.li-navbar:hover{
+    background-color: palevioletred;
+    transition: .3s ease-in-out;
+    transition-delay: .1s;
+    border-radius: 10px;
+}
+
+.a-navbar{
+    color: rgb(0, 0, 5);
+    text-decoration: none;
+    font-weight: 1000;
+}
+
+.container-content{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+.a-content-about{
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28;
+}
+
+.a-content-contact{
+
+    font-family: sans-serif;
+    font-size: 100;
+}
+
+.img-content-satu{
+    width: 250;
+    height: 300;
+    margin: 2px;
+    border-radius: 15px;
+
+}
+
+
+.img-content2{
+    width: 250;
+    height: 300;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+.img-content3{
+    width: 250;
+    height: 300;
+    margin: 2px;
+    border-radius: 15px;
+}
+
+.container-footer{
+    height: 20vh;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1-footer{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+}
+
+.h1-footer-about{
+
+    font-family: cursive;
+    font-style: italic;
+}
+
+.h1-footer-contact{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
